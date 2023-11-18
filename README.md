@@ -1,6 +1,6 @@
 # Page Ada Lovelace
 
-![in Development](https://img.shields.io/badge/in%20-%20Development-pink)
+![ CONCLUIDO](https://img.shields.io/badge/in%20-%20Development-pink)
 
 projeto realizado para conclusão de curso da WomakersCode
 
