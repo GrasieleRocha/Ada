@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+:root{
+    --menu-bg-color:#0e0d0d;
+  
+}
+
+.menu-hiden{
+    display: none;
+}
+
+h1{
+  color: white;
+}
+span{
+    color: rgb(255, 238, 2);
+    
+}
+
+@media only screen and (max-width: 349) {
+  #box-top {
+  flex-direction: column;
+  height: auto;
+  padding-top: 24px;
+  }
+  .menu-navigation {
+  display: none;
+  align-items: center;
+  }
+  .banner {
+  width: 100%;
+  height: auto;
+  padding-top: 190px;
+  }
+  #home .box-home {
+  flex-direction: column;
+  
+  }
+  .container-banner-inf{
+    padding-top: 70px;
+  }
+  .footer-clean{
+    width: 100%;
+  }
+  }
+
+  @media only screen and (max-width: 369px) {
+    #box-top {
+    flex-direction: column;
+    height: auto;
+    padding-top: 24px;
+    }
+    .menu-navigation {
+    display: none;
+    }
+    .banner {
+    width: 100%;
+    height: auto;
+    padding-top: 190px;
+    }
+    #home .box-home {
+    flex-direction: column;
+    
+    }
+    .container-banner-inf{
+      padding-top: 70px;
+    }
+
+    .footer-clean{
+      width: 100%;
+    }
+    }
+
+    @media only screen and (max-width: 375px) {
+      #box-top {
+      flex-direction: column;
+      height: auto;
+      padding-top: 24px;
+      }
+      .menu-navigation {
+      display: none;
+      }
+      .banner {
+      width: 100%;
+      height: auto;
+      padding-top: 190px;
+      }
+      #home .box-home {
+      flex-direction: column;
+      
+      }
+      .container-banner-inf{
+        padding-top: 70px;
+      }
+      }
+
+      @media only screen and (max-width: 900px) {
+        #box-top {
+        flex-direction: column;
+        height: auto;
+        padding-top: 24px;
+        }
+        .menu-navigation {
+        display: none;
+        }
+        .banner {
+        width: 100%;
+        height: auto;
+        padding-top: 190px;
+        }
+        #home .box-home {
+        flex-direction: column;
+        
+        }
+        .container-banner-inf{
+          padding-top: 70px;
+        }
+        }
